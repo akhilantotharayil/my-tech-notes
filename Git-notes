@@ -1,0 +1,20 @@
+# 🧠 Git Notes
+
+A personal reference for Git commands I commonly use.  
+More commands will be added as I explore further.
+
+---
+
+## 🔄 Clone Repository
+
+```bash
+git clone <repository-url>
+cd <project-name>
+
+
+git add .
+git commit -m "Add Comment"
+
+git checkout -b master
+git push origin master
+git push origin --delete main
